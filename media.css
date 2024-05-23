@@ -1,6 +1,6 @@
 @media all and (min-width:319px) and (max-width:768px){
      body,html{
-        background: url(imagens/fundo.jpg) fixed no-repeat;
+        background: #a7a7a7 url(imagens/fundo.jpg) fixed no-repeat;
      }
 
      header{                   /*inicio cabecalho*/
@@ -16,7 +16,7 @@
         height: 370px;
         margin: 0 auto;
         padding-top: 20px;
-        padding-right: 75px;
+        padding-right: 55px;
         font-size: 30px;
         
     }
@@ -79,7 +79,7 @@
     .quadro1{                  /*inicio do portifolio*/
         flex-direction: column;
         margin-top: 50px;
-        margin-left: 105px;
+        margin-left: 90px;
 
     }        
 
@@ -92,7 +92,7 @@
 
     .sobre{                      /*inicio do sobre*/
         width: 400px;
-        margin-top: 740px;
+        margin-top: 800px;
         flex-direction: column;
     }
 
@@ -106,7 +106,7 @@
         flex-direction: column;
         width: 660px;
         margin-top: 50px;
-        margin-left: 115px;
+        margin-left: 93px;
     }
 
     .foto10{
@@ -128,6 +128,7 @@
     }                            /*fim do hard*/
 
 }
+
 
 @media all and (min-width:1200px) and (max-width:1450px){
     body,html{
