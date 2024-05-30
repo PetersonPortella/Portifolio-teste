@@ -1,7 +1,10 @@
 @media all and (min-width:319px) and (max-width:768px){
-     body,html{
-        background: #a7a7a7 url(imagens/fundo.jpg) fixed no-repeat;
-     }
+     
+    body, html{
+    color: #000000;
+    background: linear-gradient(to bottom ,#b9b9b9,#b9b9b9,#b9b9b9,#8976f8);
+    height: 100%; 
+    }
 
      header{                   /*inicio cabecalho*/
         width: 100%;
@@ -131,10 +134,12 @@
 
 
 @media all and (min-width:1200px) and (max-width:1450px){
-    body,html{
-        background: url(imagens/fundo.jpg) fixed no-repeat;
-        background-size: 100%;
-     }
+     
+        body, html{
+         color: #000000;
+         background: linear-gradient(to bottom ,#b9b9b9,#b9b9b9,#b9b9b9,#8976f8);
+         height: 100%; 
+      }
 
      section{
         width: 100%;                     /*home*/
