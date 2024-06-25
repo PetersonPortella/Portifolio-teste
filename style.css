@@ -114,7 +114,7 @@ button{
 
 button:hover{
     padding-bottom: 3px;
-    background: #806afd;
+    background: #c55e35;
 }
 
 
@@ -232,7 +232,7 @@ button:hover{
 
 .foto1{
     border: 2px solid #000000;
-    background: #806afd;
+    background: #c55e35;
     width: 15%;
     height: 250px;
     border-radius: 25px;
