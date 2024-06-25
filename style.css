@@ -7,17 +7,17 @@
 
 body, html{
     color: #000000;
-    background: linear-gradient(to bottom ,#b9b9b9,#b9b9b9,#b9b9b9,#8976f8);
-    height: 100%; 
+    background: linear-gradient(to bottom ,#b9b9b9,#d4e9e8,#d4e9e8,#d4e9e8,#d69074);
+    height: 100%;
+  
 }
-
 
 /*inicio do cabecalho*/
 header{
     width: 100%;
     margin: 0 auto;
     font-size: 25px;
-    background: #8976f8;    
+    background: #c55e35;    
 }
 
 .menu{
@@ -279,19 +279,8 @@ p{
     padding-top: 20px;
 }
 
-.foto13{
-    width: 19%;
-    height: 250px;
-    padding-top: 20px;
-}
 
 .foto14{
-    width: 19%;
-    height: 250px;
-    padding-top: 35px;
-}
-
-.foto15{
     width: 19%;
     height: 250px;
     padding-top: 35px;
