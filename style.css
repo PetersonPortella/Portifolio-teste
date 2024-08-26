@@ -6,8 +6,8 @@
 }
 
 body, html{
-    color: #000000;
-    background: linear-gradient(to bottom ,#b9b9b9,#d4e9e8,#d4e9e8,#d4e9e8,#d69074);
+    color: #111111;
+    background: #ef9d10;
     height: 100%;
   
 }
@@ -17,7 +17,15 @@ header{
     width: 100%;
     margin: 0 auto;
     font-size: 25px;
-    background: #c55e35;    
+    background: #143d59; 
+}
+
+button.noite{
+    border: none;
+    background: #009de000;
+    color: #ffffff;
+    width: 50px;
+    margin-right: 50px;
 }
 
 .menu{
@@ -34,6 +42,7 @@ header{
     padding: 0 25px; 
     margin-right: 35px;  
     transition: 1s;  
+    
 }
 
 .menu ul li:hover{
@@ -59,7 +68,7 @@ header{
 
 /*final do cabecalho*/
 
-/*inicio do corpo home*/
+/*inicio home*/
 section{
    
     width: 85%;
@@ -81,9 +90,10 @@ section{
     border-radius: 1px 200px;
     border: 10px solid yellow;
     position: center;
-    animation: borda 3s infinite linear;
+    animation: borda 3s infinite linear, subirDescer 2s infinite ease-in-out;
 }
 
+/* Animação de mudança de cor da borda */
 @keyframes borda {
     20% {
         border-color: #009de0;
@@ -95,6 +105,20 @@ section{
         border-color: yellow;
     }
 }
+
+/* Animação de subida e descida */
+@keyframes subirDescer {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); 
+    }
+    100% {
+        transform: translateY(0); 
+    }
+}
+
 .texto{
     text-align: center;
     font-size: 25px;
@@ -108,20 +132,16 @@ button{
     height: 50px;
     border: 1px solid white;
     border-radius: 10px;
-    
+    transition: 0.3s;
 
 }
 
 button:hover{
     padding-bottom: 3px;
-    background: #c55e35;
-    
+    background: #5c5c5c;
 }
 
-
-
-.redes{
-    
+.redes{  
     width: 4.5%;
     height: 100px;
     margin-bottom: 170px;
@@ -129,20 +149,17 @@ button:hover{
 }    
 
 .redes ul li{
-
     list-style: none;
     width: 80px;
     height: 80px;
-    padding: 20px 0;
-    
+    padding: 20px 0;   
 }
 
 .redes ul li:hover{
     padding-top: 15px;
-
 }
 
-/*final do corpo home*/
+/*final  home*/
 
 /*inicio do contato*/
 
@@ -159,7 +176,6 @@ button:hover{
 }   
 
 .caixa1{
-   
     width: 75%;
     text-align: center;
     margin-top: 160px;
@@ -174,13 +190,7 @@ button:hover{
 
 .caixa2 ul li{
     list-style: none;
-    padding-top: 20px;
-
-}
-
-.caixa2 ul li:hover{   
-    padding-top: 25px;
-   
+    padding-top: 15px;
 
 }
 
@@ -233,7 +243,7 @@ button:hover{
 
 .foto1{
     border: 2px solid #000000;
-    background: #c55e35;
+    background: #000000;
     width: 15%;
     height: 250px;
     border-radius: 25px;
@@ -288,3 +298,9 @@ p{
 }
 
 /*final das skills*/
+
+/*
+footer{
+   background: orangered;
+   height: 175px;
+}
