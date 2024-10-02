@@ -26,6 +26,7 @@ function Clicar() {
 //A função window.onload é utilizada para recuperar as cores do armazenamento local assim que a página é carregada. 
 //Se as cores estiverem salvas, elas são aplicadas ao corpo e ao cabeçalho.
 // Recuperar as cores do armazenamento local ao carregar a página
+//fazer e estudar essas aqui
 window.onload = function() {
     const telaOriginal = localStorage.getItem('backgroundColor');
     const cabeca = localStorage.getItem('headerColor');
